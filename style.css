@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-image: linear-gradient(to right, #4b1515, #0c0808);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to left, #4b1515, #0c0808);
+}
+.left {
+  font-size: 40px;
+  margin: 10px;
+}
+nav ul {
+  display: flex;
+  gap: 18px;
+  margin: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(206, 66, 66);
+  font-size: 15px;
+}
+nav ul li {
+  list-style-type: none;
+}
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0px;
+}
+.left-section {
+  width: 30%;
+  padding: 2px 5px;
+  font-size: x-large;
+  padding-top: 80px;
+  /* margin-top: 50px; */
+}
+.right-section {
+  width: 30%;
+  padding: 2px 5px;
+}
+.right-section img {
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  /* margin-top: 60px; */
+}
+.orange {
+  color: rgb(240, 102, 52);
+}
+.left img {
+  height: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #4b1515, #0c0808);
+}
+#element {
+  color: rgb(147, 218, 32);
+}
+.second {
+  max-width: 80vm;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: large;
+}
+hr {
+  margin: 0px 20px;
+}
+.second .box {
+  background-color: white;
+  width: 90%;
+  height: 2px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.second .box .verticle {
+  background-color: white;
+  width: 2px;
+  height: 50px;
+}
+.verticle-title {
+  position: relative;
+  top: 60px;
+  margin-left: -20px;
+  font-size: larger;
+ 
+}
+.verticle-description {
+  font-size: 11px;
+  position: relative;
+  color: grey;
+  width: 100px;
+  top: 60px;
+  margin-left: -20px;
+}
+.TU {
+  color: aqua;
+}
+
+.verticle-description img {
+  width: 23px;
+  padding: 2px;
+}
+.verticle-title a{
+  text-decoration: none;
+}
+.flex{
+  
+ 
+}
+footer{
+  display: flex;
+  margin-top: 300px;
+  justify-content: space-around;
+}
